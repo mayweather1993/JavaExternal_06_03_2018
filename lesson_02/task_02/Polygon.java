@@ -1,4 +1,7 @@
 package task_02;
 
-public class Polygon {
+public abstract class Polygon {
+    public abstract double calculateArea();
+
+    public abstract double calculatePerimeter();
 }
