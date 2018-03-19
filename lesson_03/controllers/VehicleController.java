@@ -12,9 +12,21 @@ public class VehicleController implements VehicleDAO {
 
     private static final int YEAR = 2018;
 
+    private List<CVehicle> vehicles = new ArrayList<>();
+
 
     @Override
-    public CVehicle getVehicleWithMaxPrice(List<CVehicle> vehicles) {
+    public void save(CVehicle cVehicle) {
+        vehicles.add(cVehicle);
+    }
+
+    @Override
+    public List<CVehicle> findAll() {
+        return vehicles;
+    }
+
+    @Override
+    public CVehicle getVehicleWithMaxPrice() {
         double maxPrice = 0;
         CVehicle vehicle = null;
         for (int i = 0; i < vehicles.size(); i++) {
@@ -28,15 +40,15 @@ public class VehicleController implements VehicleDAO {
 
 
     @Override
-    public List<CVehicle> filterYearSpeedPrice(List<CVehicle> vehicles) {
+    public List<CVehicle> filterYearSpeedPrice() {
         double minimum = Double.MIN_VALUE;
         CVehicle vehicle;
         for (int i = 0; i < vehicles.size(); i++) {
-            if (vehicles.get(i).getYear() >= 2000 && vehicles.get(i).getYear() <= 2005
-                    && vehicles.get(i).getSpeed() > 150
-                    && vehicles.get(i).getPrice() < minimum) {
-                vehicle = vehicles.get(i);
-                minimum = vehicles.get(i).getPrice();
+            vehicle = vehicles.get(i);
+            if (vehicle.getYear() >= 2000 && vehicle.getYear() <= 2005
+                    && vehicle.getSpeed() > 150
+                    && vehicle.getPrice() < minimum) {
+                minimum = vehicle.getPrice();
                 vehicles.add(vehicle);
             }
         }
@@ -45,7 +57,7 @@ public class VehicleController implements VehicleDAO {
 
 
     @Override
-    public List<CVehicle> filterByNewestCars(List<CVehicle> vehicles) {
+    public List<CVehicle> filterByNewestCars() {
         List<CVehicle> cars = new ArrayList<>();
         CVehicle car = null;
         for (int i = 0; i < vehicles.size(); i++) {
@@ -59,7 +71,7 @@ public class VehicleController implements VehicleDAO {
     }
 
     @Override
-    public List<CVehicle> filterShipsByYearDescOrder(List<CVehicle> vehicles) {
+    public List<CVehicle> filterShipsByYearDescOrder() {
         List<CVehicle> ships = new ArrayList<>();
         CVehicle ship = null;
 

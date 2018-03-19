@@ -5,11 +5,15 @@ import entities.CVehicle;
 import java.util.List;
 
 public interface VehicleDAO {
-    CVehicle getVehicleWithMaxPrice(List<CVehicle> vehicles);
+    void save(CVehicle cVehicle);
 
-    List<CVehicle> filterYearSpeedPrice(List<CVehicle> vehicles);
+    List<CVehicle> findAll();
 
-    List<CVehicle> filterByNewestCars(List<CVehicle> vehicles);
+    CVehicle getVehicleWithMaxPrice();
 
-    List<CVehicle> filterShipsByYearDescOrder(List<CVehicle> vehicles);
+    List<CVehicle> filterYearSpeedPrice();
+
+    List<CVehicle> filterByNewestCars();
+
+    List<CVehicle> filterShipsByYearDescOrder();
 }
