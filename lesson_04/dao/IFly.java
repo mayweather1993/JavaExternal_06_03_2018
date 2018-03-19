@@ -1,5 +1,7 @@
 package dao;
 
 public interface IFly {
-    void fly();
+    double flyKPD = 3.69;
+
+    double fly();
 }

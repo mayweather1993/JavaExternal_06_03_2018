@@ -1,5 +1,7 @@
 package dao;
 
 public interface ISwim {
-    void swim();
+    double swimmingKPD = 2.34;
+
+    double swim();
 }

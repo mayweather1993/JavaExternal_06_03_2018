@@ -9,7 +9,7 @@ public class Batmobile extends Amphibian implements IFly {
     }
 
     @Override
-    public void fly() {
-
+    public double fly() {
+        return flyKPD * speed;
     }
 }

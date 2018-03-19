@@ -8,7 +8,7 @@ public class Amphibian extends CCar implements ISwim {
     }
 
     @Override
-    public void swim() {
-
+    public double swim() {
+        return swimmingKPD * speed;
     }
 }

@@ -1,5 +1,7 @@
 package dao;
 
 public interface IMove {
-    void move();
+
+
+    double move();
 }
