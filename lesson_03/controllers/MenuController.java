@@ -20,8 +20,8 @@ public class MenuController {
 
     void task2() {
         System.out.println("Lets find a vehicle with with 2000 - 2005 year productivity , speed more than 150 , and lowest price");
-        List<CVehicle> cVehicles = controller.filterYearSpeedPrice();
-        System.out.println("Ok lets check.This is : " + cVehicles);
+        CVehicle vehicle = controller.filterYearSpeedPrice();
+        System.out.println("Ok lets check.This is : " + vehicle);
     }
 
     void task3() {

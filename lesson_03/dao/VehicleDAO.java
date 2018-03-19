@@ -11,7 +11,7 @@ public interface VehicleDAO {
 
     CVehicle getVehicleWithMaxPrice();
 
-    List<CVehicle> filterYearSpeedPrice();
+    CVehicle filterYearSpeedPrice();
 
     List<CVehicle> filterByNewestCars();
 

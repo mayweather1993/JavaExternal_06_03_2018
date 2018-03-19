@@ -40,19 +40,19 @@ public class VehicleController implements VehicleDAO {
 
 
     @Override
-    public List<CVehicle> filterYearSpeedPrice() {
-        double minimum = Double.MIN_VALUE;
-        CVehicle vehicle;
+    public CVehicle filterYearSpeedPrice() {
+        double minPrice = Double.MAX_VALUE;
+        CVehicle vehicle = null;
         for (int i = 0; i < vehicles.size(); i++) {
-            vehicle = vehicles.get(i);
-            if (vehicle.getYear() >= 2000 && vehicle.getYear() <= 2005
-                    && vehicle.getSpeed() > 150
-                    && vehicle.getPrice() < minimum) {
-                minimum = vehicle.getPrice();
-                vehicles.add(vehicle);
+            CVehicle loopVehicle = vehicles.get(i);
+            if (loopVehicle.getYear() >= 2000 && loopVehicle.getYear() <= 2005
+                    && loopVehicle.getSpeed() > 150
+                    && loopVehicle.getPrice() < minPrice) {
+                minPrice = loopVehicle.getPrice();
+                vehicle = loopVehicle;
             }
         }
-        return vehicles;
+        return vehicle;
     }
 
 
