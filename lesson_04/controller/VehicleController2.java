@@ -19,6 +19,11 @@ public class VehicleController2 implements VehicleDAOlesson4 {
     }
 
     @Override
+    public List<CVehicle> findAll() {
+        return vehicles;
+    }
+
+    @Override
     public CVehicle maxspeed() {
         return Collections.max(vehicles, Comparator.comparingDouble(CVehicle::getSpeed));
     }
