@@ -1,8 +1,9 @@
 package entities;
 
+import dao.IMove;
 import dao.ISwim;
 
-public class Amphibian extends CCar implements ISwim {
+public class Amphibian extends CCar implements ISwim, IMove {
     public Amphibian(double price, int year, double speed, int x, int y) {
         super(price, year, speed, x, y);
     }
@@ -10,5 +11,10 @@ public class Amphibian extends CCar implements ISwim {
     @Override
     public double swim() {
         return swimmingKPD * speed;
+    }
+
+    @Override
+    public double move() {
+        return speed;
     }
 }

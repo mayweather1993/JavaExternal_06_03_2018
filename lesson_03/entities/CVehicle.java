@@ -2,11 +2,11 @@ package entities;
 
 
 public abstract class CVehicle {
-    protected double price;
-    protected int year;
+    double price;
+    int year;
     protected double speed;
-    protected int x;
-    protected int y;
+    int x;
+    int y;
 
     public CVehicle() {
     }
