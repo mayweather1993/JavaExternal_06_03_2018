@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class PositiveThanNegativeSort {
     public static void main(String[] args) {
         //Our data for testing
-        int[] array = {1, 4, 2, -5, -3, 9, -1, 10};
+        int[] array = {-5, -3, 9, -1, 10};
 
         //Output data before sorting
         System.out.println(Arrays.toString(array));
