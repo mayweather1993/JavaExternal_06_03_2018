@@ -1,6 +1,9 @@
 package task_02;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 public class NegativesThanPositivesSort {
     public static void main(String[] args) {
@@ -33,10 +36,10 @@ public class NegativesThanPositivesSort {
             }
         }
         //Sorting our negative numbers in natural order
-        Collections.sort(negatives, Comparator.naturalOrder());
+        negatives.sort(Comparator.naturalOrder());
 
         //Sorting our positive numbers in reverse order
-        Collections.sort(positives, Comparator.reverseOrder());
+        positives.sort(Comparator.reverseOrder());
 
         int temp = 0;
         for (int number :
