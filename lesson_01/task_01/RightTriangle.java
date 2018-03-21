@@ -2,7 +2,7 @@ package task_01;
 
 public class RightTriangle {
     public static void main(String[] args) {
-        printRightTriangle(6);
+        printRightTriangle(5);
     }
 
     public static void printRightTriangle(int height) {

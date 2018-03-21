@@ -4,10 +4,12 @@ import java.util.Arrays;
 
 public class PositiveThanNegativeSort {
     public static void main(String[] args) {
-        //Our data for testing
-        int[] array = {-5, -3, 9, -1, 10};
+        int[] array = {-5, -3, 9, -1, -2 , 3 , -9};
 
-        //Output data before sorting
+
+        System.out.println("=======================");
+        System.out.println("Our data before sorting");
+        System.out.println("=======================");
         System.out.println(Arrays.toString(array));
 
         //Sorting data
@@ -15,25 +17,20 @@ public class PositiveThanNegativeSort {
 
         System.out.println("\n");
 
-        //Output sorting data
+        System.out.println("======================");
+        System.out.println("Our data after sorting");
+        System.out.println("======================");
         System.out.println(Arrays.toString(array));
     }
 
-    public static void sort(int[] array) {
-        int i = 0;
-        int j = array.length - 1;
-        while (i <= j) {
-            while (array[i] < 0) i++;
-            while (array[j] >= 0) j--;
-            if (i <= j) {
-                swap(array, i, j);
-            }
+    public static void sort(int[] arrayToSort) {
+        int i = 0, j = arrayToSort.length - 1;
+        while (i != j) {
+            while ((i != j) && (arrayToSort[i] > 0)) i++;
+            while ((i != j) && (arrayToSort[j] < 0)) j--;
+            int temp = arrayToSort[i];
+            arrayToSort[i] = arrayToSort[j];
+            arrayToSort[j] = temp;
         }
-    }
-
-    public static void swap(int[] array, int i, int j) {
-        int tmp = array[i];
-        array[i] = array[j];
-        array[j] = tmp;
     }
 }
