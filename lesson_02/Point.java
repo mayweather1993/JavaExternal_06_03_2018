@@ -1,7 +1,10 @@
-public class Point implements Drawable {
+public class Point implements Drawable, Comparable {
 
     private int x;
     private int y;
+
+    private String name;
+
 
     public Point() {
     }
@@ -33,6 +36,11 @@ public class Point implements Drawable {
                 "x=" + x +
                 ", y=" + y +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return name.compareTo(((Point) o).name);
     }
 }
 

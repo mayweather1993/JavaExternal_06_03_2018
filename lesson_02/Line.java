@@ -16,14 +16,6 @@ public class Line implements Drawable {
         return end;
     }
 
-    public void setStart(Point start) {
-        this.start = start;
-    }
-
-    public void setEnd(Point end) {
-        this.end = end;
-    }
-
     @Override
     public String toString() {
         return "Line{" +

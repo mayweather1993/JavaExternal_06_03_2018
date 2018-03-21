@@ -32,6 +32,7 @@ public class Drawer_task1 {
         System.out.println("===============");
         System.out.println("Print rectangle");
         System.out.println("===============");
+        System.out.println(figures.get(4));
         System.out.println("\n");
     }
 }
