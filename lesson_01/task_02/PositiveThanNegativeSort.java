@@ -23,14 +23,14 @@ public class PositiveThanNegativeSort {
         System.out.println(Arrays.toString(array));
     }
 
-    public static void sort(int[] arrayToSort) {
-        int i = 0, j = arrayToSort.length - 1;
+    public static void sort(int[] array) {
+        int i = 0, j = array.length - 1;
         while (i != j) {
-            while ((i != j) && (arrayToSort[i] > 0)) i++;
-            while ((i != j) && (arrayToSort[j] < 0)) j--;
-            int temp = arrayToSort[i];
-            arrayToSort[i] = arrayToSort[j];
-            arrayToSort[j] = temp;
+            while ((i != j) && (array[i] > 0)) i++;
+            while ((i != j) && (array[j] < 0)) j--;
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
         }
     }
 }

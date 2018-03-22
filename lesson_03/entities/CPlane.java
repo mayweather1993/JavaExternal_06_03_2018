@@ -14,7 +14,8 @@ public class CPlane extends CVehicle {
 
     @Override
     public String toString() {
-        return "CPlane{" +
+        return "\n" +
+                "CPlane{" +
                 "capacity=" + capacity +
                 ", height=" + height +
                 ", price=" + price +

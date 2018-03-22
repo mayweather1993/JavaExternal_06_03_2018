@@ -1,6 +1,7 @@
 package controllers;
 
 import entities.CCar;
+import entities.CPlane;
 import entities.CShip;
 
 import java.io.BufferedReader;
@@ -26,6 +27,9 @@ public class MainСontroller {
         dao.save(new CShip(535310, 2017, 70, 9, 2, 9000, "Ukraine"));
         dao.save(new CShip(75377, 2013, 140, 11, 2, 7000, "Ukraine"));
         dao.save(new CShip(773531, 2001, 50, 67, 2, 4000, "Germany"));
+        dao.save(new CPlane(180000 , 2017 , 600 , 2 , 5 , 400 , 6200));
+        dao.save(new CPlane(3810000 , 2011 , 400 , 3 , 9 , 800 , 3900));
+        dao.save(new CPlane(13380000 , 2015 , 900 , 9 , 9 , 10 , 1800));
 
         System.out.println("==============");
         System.out.println("THATS OUR DATA");

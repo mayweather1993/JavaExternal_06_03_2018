@@ -9,7 +9,8 @@ public class CCar extends CVehicle {
 
     @Override
     public String toString() {
-        return "CCar{" +
+        return "\n" +
+                "CCar{" +
                 "price=" + price +
                 ", year=" + year +
                 ", speed=" + speed +

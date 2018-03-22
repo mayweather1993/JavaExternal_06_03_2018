@@ -34,7 +34,8 @@ public class CShip extends CVehicle {
 
     @Override
     public String toString() {
-        return "CShip{" +
+        return "\n" +
+                "CShip{" +
                 "capacity=" + capacity +
                 ", portOfRegistration='" + portOfRegistration + '\'' +
                 ", price=" + price +
