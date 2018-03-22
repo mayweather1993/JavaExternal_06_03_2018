@@ -25,13 +25,11 @@ public class Polygon {
         Point previous = points[points.length - 1];
         double sum = 0;
 
-        for (int i = 0; i < points.length; i++) {
-            next = points[i];
+        for (Point point1 : points) {
+            next = point1;
             sum += this.angle(previous, point, next);
         }
-        if (((sum - Math.PI) < 0.0001) && ((sum - Math.PI) > -0.0001))
-            return true;
-        else return false;
+        return ((sum - Math.PI) < 0.0001) && ((sum - Math.PI) > -0.0001);
     }
 
     //just some logic
