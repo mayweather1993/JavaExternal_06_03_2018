@@ -1,6 +1,6 @@
 package controller;
 
-import dao.VehicleDAOlesson4;
+import dao.VehicleDAO2;
 import entities.CVehicle;
 
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class VehicleController2 implements VehicleDAOlesson4 {
+public class VehicleController2 implements VehicleDAO2 {
 
     private List<CVehicle> vehicles = new ArrayList<>();
 

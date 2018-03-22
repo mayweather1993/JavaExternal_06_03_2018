@@ -7,6 +7,7 @@ public class PositiveThanNegativeSort {
         int[] array = {-5, -3, 9, -1, -2 , 3 , -9};
 
 
+
         System.out.println("=======================");
         System.out.println("Our data before sorting");
         System.out.println("=======================");

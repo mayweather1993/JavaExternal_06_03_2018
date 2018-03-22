@@ -4,7 +4,7 @@ import entities.CVehicle;
 
 import java.util.List;
 
-public interface VehicleDAOlesson4 {
+public interface VehicleDAO2 {
 
     void save(CVehicle cVehicle);
 

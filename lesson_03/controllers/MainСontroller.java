@@ -29,7 +29,7 @@ public class MainСontroller {
         dao.save(new CShip(773531, 2001, 50, 67, 2, 4000, "Germany"));
         dao.save(new CPlane(180000 , 2017 , 600 , 2 , 5 , 400 , 6200));
         dao.save(new CPlane(3810000 , 2011 , 400 , 3 , 9 , 800 , 3900));
-        dao.save(new CPlane(13380000 , 2015 , 900 , 9 , 9 , 10 , 1800));
+        dao.save(new CPlane(1338000 , 2015 , 900 , 9 , 9 , 10 , 1800));
 
         System.out.println("==============");
         System.out.println("THATS OUR DATA");
