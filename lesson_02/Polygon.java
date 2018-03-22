@@ -6,7 +6,7 @@ public class Polygon {
     private Point[] points;
     private List<Drawable> figures = new ArrayList<>();
 
-    public Polygon(Point... p) {
+    Polygon(Point... p) {
         points = p;
     }
 

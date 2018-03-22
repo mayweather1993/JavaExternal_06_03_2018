@@ -3,7 +3,7 @@ public class Line implements Drawable {
     private Point start;
     private Point end;
 
-    public Line(Point start, Point end) {
+    Line(Point start, Point end) {
         this.start = start;
         this.end = end;
     }

@@ -8,7 +8,7 @@ import java.util.List;
 public class NegativesThanPositivesSort {
     public static void main(String[] args) {
         //Our data for testing
-        int[] array = {1, 4, 6, 2, -10, -15, 5, -18};
+        int[] array = {0 , 1, 4, 6, 2, -10, -15, 5, -18};
 
         //Output data before sorting
         System.out.println(Arrays.toString(array));

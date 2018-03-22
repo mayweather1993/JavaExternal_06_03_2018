@@ -75,8 +75,8 @@ public class VehicleController implements VehicleDAO {
         List<CVehicle> ships = new ArrayList<>();
         CVehicle ship = null;
 
-        for (int i = 0; i < vehicles.size(); i++) {
-            ship = vehicles.get(i);
+        for (CVehicle vehicle : vehicles) {
+            ship = vehicle;
             if (ship instanceof CShip && YEAR - ship.getYear() <= 5) {
                 ships.add(ship);
                 ships.sort((o1, o2) -> (int) (o2.getPrice() - o1.getPrice()));

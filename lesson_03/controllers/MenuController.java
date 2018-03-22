@@ -8,7 +8,7 @@ public class MenuController {
 
     private VehicleController controller;
 
-    public MenuController(VehicleController controller) {
+    MenuController(VehicleController controller) {
         this.controller = controller;
     }
 

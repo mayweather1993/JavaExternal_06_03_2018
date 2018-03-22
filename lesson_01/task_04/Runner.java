@@ -9,8 +9,10 @@ public class Runner {
         System.out.println("=====================");
         System.out.println("LETS LOOK AT OUR DATA");
         System.out.println("=====================");
+        System.out.println("\n");
 
         MatrixUtils.printMatrix(matrix);
+        System.out.println("\n");
         System.out.println("=========================");
         System.out.println("USING SPIRAL ORDER METHOD");
         System.out.println("=========================");
@@ -19,6 +21,7 @@ public class Runner {
         System.out.println("========================");
         System.out.println("OUR DATA IN SPIRAL ORDER");
         System.out.println("========================");
+        System.out.println("\n");
         Spiral.spiralOrder(matrix);
     }
 }
