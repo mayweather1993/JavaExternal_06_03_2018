@@ -47,7 +47,8 @@ public class Rectangle implements Drawable {
 
     @Override
     public String toString() {
-        return "Rectangle{" +
+        return "\n" +
+                "Rectangle{" +
                 "a=" + a +
                 ", b=" + b +
                 ", c=" + c +

@@ -11,7 +11,7 @@ public class CShip extends CVehicle {
     }
 
     public CShip(double price, int year, double speed, int x, int y, int capacity, String portOfRegistration) {
-        super(price, year, speed, x, y);
+        //super(price, year, speed, x, y);
         this.capacity = capacity;
         this.portOfRegistration = portOfRegistration;
     }

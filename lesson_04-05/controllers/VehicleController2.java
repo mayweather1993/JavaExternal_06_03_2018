@@ -1,4 +1,4 @@
-package controller;
+package controllers;
 
 import dao.VehicleDAO2;
 import entities.CVehicle;

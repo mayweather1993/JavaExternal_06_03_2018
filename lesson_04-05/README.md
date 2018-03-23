@@ -12,5 +12,14 @@
 
 - Methods to find minimum and maximum
 
+
+### List of my task from lesson 5
+
+### Add functionality to code from lesson 4 :
+
+- Add to mechanisms - details(inner-classes)
+
+
+
 :heart:
 :fire:

@@ -17,4 +17,16 @@ public class Amphibian extends CCar implements ISwim, IMove {
     public double move() {
         return speed;
     }
+
+    @Override
+    public String toString() {
+        return "\n" +
+                "Amphibian{" +
+                "price=" + price +
+                ", year=" + year +
+                ", speed=" + speed +
+                ", x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }

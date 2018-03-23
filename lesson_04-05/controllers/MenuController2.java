@@ -1,4 +1,4 @@
-package controller;
+package controllers;
 
 import entities.CVehicle;
 
@@ -37,8 +37,8 @@ public class MenuController2 {
     void showMenu() {
         System.out.println("So,what you gonna do?");
         System.out.println("1.Find all data");
-        System.out.println("2.Find fastest amphibian");
-        System.out.println("3.Find slowest amphibian");
+        System.out.println("2.Find fastest vehicle");
+        System.out.println("3.Find slowest vehicle");
         System.out.println("4.Quit");
     }
 }

@@ -36,7 +36,8 @@ public class Triangle implements Drawable {
 
     @Override
     public String toString() {
-        return "Triangle{" +
+        return  "\n" +
+                "Triangle{" +
                 "a=" + a +
                 ", b=" + b +
                 ", c=" + c +
