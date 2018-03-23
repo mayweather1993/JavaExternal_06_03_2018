@@ -31,7 +31,7 @@ public class MenuController {
     }
 
     void task4() {
-        System.out.println("Lets find a ships no older than 5 years and sorted in descending order");
+        System.out.println("Lets find a ships no older than 5 years and sorted in descending order by price");
         List<CVehicle> ships = controller.filterShipsByYearDescOrder();
         System.out.println("That's most newest ships in descending order + \n" + ships);
     }
