@@ -121,7 +121,6 @@ public class CPlane extends CVehicle implements IFly {
             return this;
         }
 
-
         public CPlane build() {
             return new CPlane(this);
         }

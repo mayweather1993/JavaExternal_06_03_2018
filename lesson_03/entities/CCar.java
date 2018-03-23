@@ -1,9 +1,21 @@
 package entities;
 
-public class CCar extends CVehicle {
+import dao.IMove;
+import enums.Fuel;
+import enums.TransmissionVariety;
 
-    public CCar(double price, int year, double speed, int x, int y) {
-        //super(price, year, speed, x, y);
+public class CCar extends CVehicle implements IMove {
+
+    private final Transmission transmission;
+
+    private CCar(CarBuilder carBuilder) {
+        price = carBuilder.price;
+        year = carBuilder.year;
+        speed = carBuilder.speed;
+        x = carBuilder.x;
+        y = carBuilder.y;
+        engine = carBuilder.engine;
+        transmission = carBuilder.transmission;
     }
 
 
@@ -18,4 +30,105 @@ public class CCar extends CVehicle {
                 ", y=" + y +
                 '}';
     }
+
+    @Override
+    public double move() {
+        return speed;
+    }
+
+    public Transmission getTransmission() {
+        return transmission;
+    }
+
+
+    public static class Transmission {
+        private final TransmissionVariety transmissionVariety;
+
+        public Transmission(TransmissionVariety transmissionVariety) {
+            this.transmissionVariety = transmissionVariety;
+        }
+
+        @Override
+        public String toString() {
+            return "TransmissionVariety{" +
+                    "transmission=" + transmissionVariety +
+                    '}';
+        }
+    }
+
+    public static class CarEngine extends Engine {
+        private final int horsePower;
+
+
+        public CarEngine(Fuel FUEL, int horsePower) {
+            super(FUEL);
+            this.horsePower = horsePower;
+        }
+
+        @Override
+        public String toString() {
+            return "CarEngine{" +
+                    "horsePower=" + horsePower +
+                    '}';
+        }
+    }
+
+    public static class CarBuilder {
+        private double price;
+        private int year;
+        private double speed;
+        private int x;
+        private int y;
+        private Engine engine;
+        private Transmission transmission;
+
+        private CarBuilder() {
+        }
+
+        public CarBuilder price(double price) {
+            this.price = price;
+            return this;
+        }
+
+
+        public CarBuilder year(int year) {
+            this.year = year;
+            return this;
+        }
+
+
+        public CarBuilder speed(double speed) {
+            this.speed = speed;
+            return this;
+        }
+
+
+        public CarBuilder x(int x) {
+            this.x = x;
+            return this;
+        }
+
+
+        public CarBuilder y(int y) {
+            this.y = y;
+            return this;
+        }
+
+        public CarBuilder engine(Engine engine) {
+            this.engine = engine;
+            return this;
+        }
+
+
+        public CarBuilder transmission(Transmission transmission) {
+            this.transmission = transmission;
+            return this;
+        }
+
+        public CCar build() {
+            return new CCar(this);
+        }
+    }
 }
+
+

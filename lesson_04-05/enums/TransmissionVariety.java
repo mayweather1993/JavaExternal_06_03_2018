@@ -1,5 +1,5 @@
 package enums;
 
-public enum  Transmission {
+public enum TransmissionVariety {
     AUTOMATIC , VARIATOR
 }
