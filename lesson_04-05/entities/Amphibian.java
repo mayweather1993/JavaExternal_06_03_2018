@@ -4,8 +4,10 @@ import dao.IMove;
 import dao.ISwim;
 
 public class Amphibian extends CCar implements ISwim, IMove {
-    public Amphibian(double price, int year, double speed, int x, int y) {
-        super(price, year, speed, x, y);
+
+
+    protected Amphibian(CarBuilder carBuilder) {
+        super(carBuilder);
     }
 
     @Override
@@ -29,4 +31,17 @@ public class Amphibian extends CCar implements ISwim, IMove {
                 ", y=" + y +
                 '}';
     }
+
+
+    public static class AmphibiaBuilder extends CarBuilder {
+
+        private AmphibiaBuilder() {
+            super();
+        }
+
+        public Amphibian build() {
+            return new Amphibian(this);
+        }
+    }
 }
+

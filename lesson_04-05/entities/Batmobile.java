@@ -6,8 +6,9 @@ import dao.ISwim;
 
 public class Batmobile extends CCar implements IFly, IMove, ISwim {
 
-    public Batmobile(double price, int year, double speed, int x, int y) {
-        super(price, year, speed, x, y);
+
+    protected Batmobile(CarBuilder carBuilder) {
+        super(carBuilder);
     }
 
     @Override
@@ -36,5 +37,15 @@ public class Batmobile extends CCar implements IFly, IMove, ISwim {
                 ", x=" + x +
                 ", y=" + y +
                 '}';
+    }
+
+    public static class BatBuilder extends CarBuilder {
+        private BatBuilder() {
+        }
+
+        @Override
+        public Batmobile build() {
+            return new Batmobile(this);
+        }
     }
 }

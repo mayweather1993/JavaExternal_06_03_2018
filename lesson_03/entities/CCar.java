@@ -8,7 +8,7 @@ public class CCar extends CVehicle implements IMove {
 
     private final Transmission transmission;
 
-    private CCar(CarBuilder carBuilder) {
+    protected CCar(CarBuilder carBuilder) {
         price = carBuilder.price;
         year = carBuilder.year;
         speed = carBuilder.speed;
@@ -82,7 +82,7 @@ public class CCar extends CVehicle implements IMove {
         private Engine engine;
         private Transmission transmission;
 
-        private CarBuilder() {
+        CarBuilder() {
         }
 
         public CarBuilder price(double price) {
