@@ -40,7 +40,7 @@ public class Batmobile extends CCar implements IFly, IMove, ISwim {
     }
 
     public static class BatBuilder extends CarBuilder {
-        private BatBuilder() {
+        public BatBuilder() {
         }
 
         @Override

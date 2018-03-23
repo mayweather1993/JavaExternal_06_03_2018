@@ -35,7 +35,7 @@ public class Amphibian extends CCar implements ISwim, IMove {
 
     public static class AmphibiaBuilder extends CarBuilder {
 
-        private AmphibiaBuilder() {
+        public AmphibiaBuilder() {
             super();
         }
 

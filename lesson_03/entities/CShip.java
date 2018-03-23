@@ -1,6 +1,5 @@
 package entities;
 
-import dao.Builder;
 import dao.ISwim;
 import enums.Fuel;
 
@@ -65,7 +64,7 @@ public class CShip extends CVehicle implements ISwim {
         }
     }
 
-    public static class ShipBuilder implements Builder {
+    public static class ShipBuilder {
         private double price;
         private int year;
         private double speed;

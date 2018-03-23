@@ -34,14 +34,9 @@ public class MainСontroller {
         dao.save(new CShip.ShipBuilder().price(2200000).year(2017).speed(210).x(31).y(1).
                 engine(new CShip.ShipEngine(Fuel.A98, 40000))
                 .capacity(400).portOfRegistration("Florida").build());
-
-        System.out.println("==============");
-        System.out.println("THATS OUR DATA");
-        System.out.println("==============");
-
-        System.out.println(dao.findAll());
-
-        System.out.println("\n");
+        dao.save(new CShip.ShipBuilder().price(10000).year(2003).speed(210).x(2).y(1).
+                engine(new CShip.ShipEngine(Fuel.A95, 2000))
+                .capacity(20).portOfRegistration("Dallas").build());
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         MenuController menuController = new MenuController(dao);
