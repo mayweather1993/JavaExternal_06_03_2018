@@ -2,7 +2,7 @@
 
 #### Add functionality to code from lesson 3 :
 
-- Add a car Amphibia, BetMobile
+- Add a car Amphibia, BatMobile
 
 - Add interfaces IFly, ISwim, IMove
 

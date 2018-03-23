@@ -14,4 +14,6 @@ public interface VehicleDAO2 {
 
     CVehicle maxspeed();
 
+    void orderBySpeed();
+
 }

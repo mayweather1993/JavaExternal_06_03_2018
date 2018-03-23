@@ -5,6 +5,7 @@ import entities.CPlane;
 import entities.CShip;
 import enums.AirDistance;
 import enums.Fuel;
+import enums.TransmissionVariety;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,13 +21,16 @@ public class MainСontroller {
                 speed(340).x(2).y(11).engine(new CPlane.AirEngine(Fuel.A98, AirDistance.VERY_HIGH))
                 .capacity(600).height(7700).build());
         dao.save(new CCar.CarBuilder().price(45000).year(2016).
-                speed(190).x(22).y(31).engine(new CCar.CarEngine(Fuel.A95, 310))
+                speed(190).x(22).y(31).engine(new CCar.CarEngine(Fuel.A95, 310)).
+                transmission(new CCar.Transmission(TransmissionVariety.AUTOMATIC))
                 .build());
         dao.save(new CCar.CarBuilder().price(135000).year(2015).
-                speed(300).x(23).y(41).engine(new CCar.CarEngine(Fuel.ELECTRIC, 600))
+                speed(300).x(23).y(41).engine(new CCar.CarEngine(Fuel.ELECTRIC, 600)).
+                transmission(new CCar.Transmission(TransmissionVariety.VARIATOR))
                 .build());
         dao.save(new CCar.CarBuilder().price(15000).year(2007).
-                speed(90).x(22).y(31).engine(new CCar.CarEngine(Fuel.DIESEL, 310))
+                speed(90).x(22).y(31).engine(new CCar.CarEngine(Fuel.DIESEL, 310)).
+                transmission(new CCar.Transmission(TransmissionVariety.AUTOMATIC))
                 .build());
         dao.save(new CShip.ShipBuilder().price(300000).year(2008).speed(70).x(3).y(13).
                 engine(new CShip.ShipEngine(Fuel.DIESEL, 20000))

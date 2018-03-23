@@ -28,6 +28,12 @@ public class MenuController2 {
         CVehicle minspeed = vehicleController2.minspeed();
         System.out.println("Slowest : " + minspeed);
     }
+    void speedOrder(){
+        System.out.println("Lets sort by speed");
+        vehicleController2.orderBySpeed();
+        List<CVehicle> vehicles = vehicleController2.findAll();
+        System.out.println(vehicles);
+    }
 
     void quit() {
         System.out.println("Thanks.Bye.");
@@ -39,6 +45,7 @@ public class MenuController2 {
         System.out.println("1.Find all data");
         System.out.println("2.Find fastest vehicle");
         System.out.println("3.Find slowest vehicle");
-        System.out.println("4.Quit");
+        System.out.println("4.Order by speed");
+        System.out.println("5.Quit");
     }
 }

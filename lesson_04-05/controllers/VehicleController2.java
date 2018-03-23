@@ -29,6 +29,11 @@ public class VehicleController2 implements VehicleDAO2 {
     }
 
     @Override
+    public void orderBySpeed() {
+        vehicles.sort((o1, o2) -> (int) (o1.getSpeed() - o2.getSpeed()));
+    }
+
+    @Override
     public CVehicle minspeed() {
         return Collections.min(vehicles, Comparator.comparingDouble(CVehicle::getSpeed));
     }

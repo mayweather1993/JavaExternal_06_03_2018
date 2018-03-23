@@ -128,19 +128,6 @@ public class CCar extends CVehicle implements IMove {
         public CCar build() {
             return new CCar(this);
         }
-
-        @Override
-        public String toString() {
-            return "CarBuilder{" +
-                    "price=" + price +
-                    ", year=" + year +
-                    ", speed=" + speed +
-                    ", x=" + x +
-                    ", y=" + y +
-                    ", engine=" + engine +
-                    ", transmission=" + transmission +
-                    '}';
-        }
     }
 }
 
