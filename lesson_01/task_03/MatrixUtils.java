@@ -3,6 +3,7 @@ package task_03;
 import java.util.Random;
 
 public class MatrixUtils {
+    //generate matrix
     public static int[][] generateMatrix(int i, int j) {
         int[][] matrix = new int[i][j];
         Random random = new Random();
@@ -14,6 +15,7 @@ public class MatrixUtils {
         return matrix;
     }
 
+    //print matrix
     public static void printMatrix(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
@@ -23,39 +25,22 @@ public class MatrixUtils {
         }
     }
 
-    public static void swap(double[] array, int i, int j) {
-        double temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+    public static void swapColumn(int[] array1, int[] array2) {
+        for (int i = 0; i < array1.length; i++) {
+            int tmp = array1[i];
+            array1[i] = array2[i];
+            array2[i] = tmp;
+        }
     }
 
-    public static void swapRow(int[][] array, int i, int j) {
-        int[] temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-    }
-
-    public static double getAverage(int[] array) {
-        double temp = 0;
-        for (int i = 0; i < array.length; i++) {
-            temp += array[i];
+    //find average in matrix
+    public static double getAverage(int[][] mas, int j) {
+        double sum = 0;
+        double average = 0;
+        for (int i = 0; i < mas.length; i++) {
+            sum += mas[i][j];
         }
-        return temp / array.length;
-    }
-    public static void sortWithAverage(int[][] array, double[] average) {
-        for (int i = 0; i < average.length - 1; i++) {
-            double min = average[i];
-            int index = i;
-            for (int j = i; j < average.length; j++) {
-                if (average[j] < min) {
-                    min = average[j];
-                    index = j;
-                }
-            }
-            if (index != i) {
-                MatrixUtils.swap(average, i, index);
-                MatrixUtils.swapRow(array, i, index);
-            }
-        }
+        average = sum / mas.length;
+        return average;
     }
 }

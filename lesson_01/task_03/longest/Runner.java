@@ -1,4 +1,4 @@
-package task_03.longest_series;
+package task_03.longest;
 
 import task_03.MatrixUtils;
 
@@ -24,7 +24,7 @@ public class Runner {
         System.out.println("============================================================================");
 
 
-        SortByLongestSeriesInMatrix.sortByLongestSeries(matrix1);
+        LongestSeries.sortingRepeatingElements(matrix1);
 
 
         MatrixUtils.printMatrix(matrix1);
@@ -33,5 +33,6 @@ public class Runner {
 
         System.out.println("THAT'S WORK!! \n");
         System.out.println("GREAT! CYA LATER!");
+
     }
 }

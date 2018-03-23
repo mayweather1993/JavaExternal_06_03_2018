@@ -1,4 +1,4 @@
-package task_03.average_task;
+package task_03.average;
 
 import task_03.MatrixUtils;
 
@@ -12,7 +12,6 @@ public class Runner {
         System.out.println("LETS LOOK AT OUR DATA");
         System.out.println("=====================");
 
-
         MatrixUtils.printMatrix(matrix1);
         System.out.println("\n");
         MatrixUtils.printMatrix(matrix2);
@@ -24,10 +23,9 @@ public class Runner {
         System.out.println("OK WHAT HAPPENS IF WE GONNA SORT IT BY AVERAGE DESCENDING ORDER");
         System.out.println("===============================================================");
 
-
-        DescendingAverageSort.averageSort(matrix1);
-        DescendingAverageSort.averageSort(matrix2);
-        DescendingAverageSort.averageSort(matrix3);
+        AverageSort.sort(matrix1);
+        AverageSort.sort(matrix2);
+        AverageSort.sort(matrix3);
 
         MatrixUtils.printMatrix(matrix1);
         System.out.println("\n");
@@ -38,6 +36,5 @@ public class Runner {
 
 
         System.out.println("GREAT! GOOD JOB!");
-
     }
 }
