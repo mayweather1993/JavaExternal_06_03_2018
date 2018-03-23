@@ -1,5 +1,6 @@
 package entities;
 
+import dao.Builder;
 import dao.IFly;
 import enums.AirDistance;
 import enums.Fuel;
@@ -56,13 +57,13 @@ public class CPlane extends CVehicle implements IFly {
         private AirDistance distance;
 
 
-        AirEngine(Fuel FUEL, AirDistance distance) {
+        public AirEngine(Fuel FUEL, AirDistance distance) {
             super(FUEL);
             this.distance = distance;
         }
     }
 
-    public static class AirBuilder {
+    public static class AirBuilder implements Builder{
         private double price;
         private int year;
         private double speed;
@@ -72,7 +73,7 @@ public class CPlane extends CVehicle implements IFly {
         private int capacity;
         private double height;
 
-        private AirBuilder() {
+        public AirBuilder() {
         }
 
         public AirBuilder price(double price) {

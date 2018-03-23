@@ -1,5 +1,6 @@
 package entities;
 
+import dao.Builder;
 import dao.IMove;
 import enums.Fuel;
 import enums.TransmissionVariety;
@@ -73,7 +74,7 @@ public class CCar extends CVehicle implements IMove {
         }
     }
 
-    public static class CarBuilder {
+    public static class CarBuilder implements Builder{
         private double price;
         private int year;
         private double speed;
@@ -82,7 +83,7 @@ public class CCar extends CVehicle implements IMove {
         private Engine engine;
         private Transmission transmission;
 
-        CarBuilder() {
+        public CarBuilder() {
         }
 
         public CarBuilder price(double price) {

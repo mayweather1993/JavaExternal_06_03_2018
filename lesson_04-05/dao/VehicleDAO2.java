@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface VehicleDAO2 {
 
-    void save(CVehicle cVehicle);
+    void save(Builder builder);
 
     List<CVehicle> findAll();
 

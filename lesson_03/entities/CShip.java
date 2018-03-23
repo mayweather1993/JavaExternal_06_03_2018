@@ -1,5 +1,6 @@
 package entities;
 
+import dao.Builder;
 import dao.ISwim;
 import enums.Fuel;
 
@@ -7,15 +8,6 @@ public class CShip extends CVehicle implements ISwim {
     private int capacity;
     private String portOfRegistration;
 
-
-    public int getCapacity() {
-        return capacity;
-    }
-
-
-    public String getPortOfRegistration() {
-        return portOfRegistration;
-    }
 
     private CShip(ShipBuilder builder) {
         price = builder.price;
@@ -28,6 +20,13 @@ public class CShip extends CVehicle implements ISwim {
         portOfRegistration = builder.portOfRegistration;
     }
 
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public String getPortOfRegistration() {
+        return portOfRegistration;
+    }
 
     @Override
     public String toString() {
@@ -66,7 +65,7 @@ public class CShip extends CVehicle implements ISwim {
         }
     }
 
-    public static class ShipBuilder {
+    public static class ShipBuilder implements Builder {
         private double price;
         private int year;
         private double speed;
@@ -76,7 +75,7 @@ public class CShip extends CVehicle implements ISwim {
         private int capacity;
         private String portOfRegistration;
 
-        private ShipBuilder() {
+        public ShipBuilder() {
         }
 
 
