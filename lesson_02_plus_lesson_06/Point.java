@@ -1,12 +1,13 @@
 public class Point implements Drawable, Comparable {
 
+    private static final long serialVersionUID = 2065912867617219377L;
     private int x;
     private int y;
 
     private String name;
 
 
-    public Point(int x, int y) {
+    Point(int x, int y) {
         this.x = x;
         this.y = y;
     }

@@ -1,10 +1,13 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Polygon {
+public class Polygon implements Serializable {
+    private static final long serialVersionUID = -2999467351874373549L;
     private Point[] points;
     private List<Drawable> figures = new ArrayList<>();
+
 
     Polygon(Point... p) {
         points = p;

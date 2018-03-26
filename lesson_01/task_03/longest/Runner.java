@@ -15,6 +15,11 @@ public class Runner {
         System.out.println("=====================");
 
 
+        String fb = "FB";
+        String ea = "Ea";
+
+        System.out.println(fb.hashCode());
+        System.out.println(ea.hashCode());
         MatrixUtils.printMatrix(matrix1);
         System.out.println("\n");
 

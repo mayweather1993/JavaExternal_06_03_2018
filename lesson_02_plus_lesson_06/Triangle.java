@@ -1,5 +1,5 @@
 public class Triangle implements Drawable {
-
+    private static final long serialVersionUID = 5480390430960781068L;
     private Point a;
     private Point b;
     private Point c;
@@ -36,7 +36,7 @@ public class Triangle implements Drawable {
 
     @Override
     public String toString() {
-        return  "\n" +
+        return "\n" +
                 "Triangle{" +
                 "a=" + a +
                 ", b=" + b +

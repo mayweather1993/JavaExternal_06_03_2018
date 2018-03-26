@@ -1,5 +1,5 @@
 public class Line implements Drawable {
-
+    private static final long serialVersionUID = -5279091565407666589L;
     private Point start;
     private Point end;
 

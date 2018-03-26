@@ -1,10 +1,12 @@
 public class Rectangle implements Drawable {
+    private static final long serialVersionUID = -7715936970108144336L;
     private Point a;
     private Point b;
     private Point c;
     private Point d;
 
-    public Rectangle(Point a, Point b, Point c, Point d) {
+
+    Rectangle(Point a, Point b, Point c, Point d) {
         this.a = a;
         this.b = b;
         this.c = c;
