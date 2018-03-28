@@ -27,7 +27,7 @@ public abstract class Salad {
         return ingredients;
     }
 
-    public void setSalad(List<Ingredient> ingredients) {
+    public void setIngredients(List<Ingredient> ingredients) {
         this.ingredients = ingredients;
     }
 }

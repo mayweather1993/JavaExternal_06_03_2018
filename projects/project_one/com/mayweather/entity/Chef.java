@@ -1,16 +1,18 @@
 package entity;
 
+import java.util.List;
+
 public class Chef {
     private String name;
-    private Salad salad;
+    private List<Salad> salads;
 
     public Chef(String name) {
         this.name = name;
     }
 
-    public Chef(String name, Salad salad) {
+    public Chef(String name, List<Salad> salad) {
         this.name = name;
-        this.salad = salad;
+        this.salads = salad;
     }
 
     public String getName() {
@@ -21,19 +23,23 @@ public class Chef {
         this.name = name;
     }
 
-    public Salad getSalad() {
-        return salad;
+    public List<Salad> getSalads() {
+        return salads;
     }
 
-    public void setSalad(Salad salad) {
-        this.salad = salad;
+    public void setSalads(List<Salad> salads) {
+        this.salads = salads;
     }
 
     @Override
     public String toString() {
         return "Chef{" +
                 "name='" + name + '\'' +
-                ", salad=" + salad +
+                ", salads=" + salads +
                 '}';
+    }
+
+    public void addSalad(Salad salad) {
+        salads.add(salad);
     }
 }
