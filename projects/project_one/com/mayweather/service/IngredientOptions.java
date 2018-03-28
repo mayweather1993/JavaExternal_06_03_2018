@@ -2,7 +2,7 @@ package service;
 
 import entity.Ingredient;
 
-public interface Kitchen {
+public interface IngredientOptions {
     void addIngredientToSalad(Ingredient ingredient);
 
     void lookRecipe() throws IngredientsException;

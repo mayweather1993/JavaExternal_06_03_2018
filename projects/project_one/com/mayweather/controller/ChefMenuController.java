@@ -2,7 +2,7 @@ package controller;
 
 import entity.Ingredient;
 import service.IngredientsException;
-import service.SaladService;
+import service.IngredientService;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,8 +11,8 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 public class ChefMenuController {
-    private static SaladService saladService = new SaladService();
-    private static SaladController controller = new SaladController(saladService);
+    private static IngredientService ingredientService = new IngredientService();
+    private static IngredientController controller = new IngredientController(ingredientService);
 
 
     public static void cooking() throws IOException, IngredientsException, InvocationTargetException, NoSuchMethodException, ClassNotFoundException, InstantiationException, IllegalAccessException {
