@@ -27,13 +27,13 @@ public class MenuController {
     void task3() {
         System.out.println("Lets find a cars no older than 5 years");
         List<CVehicle> cars = controller.filterByNewestCars();
-        System.out.println("That's most newest cars : \n" + cars);
+        System.out.println("That'service most newest cars : \n" + cars);
     }
 
     void task4() {
         System.out.println("Lets find a ships no older than 5 years and sorted in descending order by price");
         List<CVehicle> ships = controller.filterShipsByYearDescOrder();
-        System.out.println("That's most newest ships in descending order + \n" + ships);
+        System.out.println("That'service most newest ships in descending order + \n" + ships);
     }
 
     void quit() {
