@@ -11,4 +11,6 @@ public interface SaladKitchen {
     List<Salad> findAll();
 
     Salad createCustomSalad(String name, List<Ingredient> ingredients);
+
+    void addDefaultSaladsToChef();
 }

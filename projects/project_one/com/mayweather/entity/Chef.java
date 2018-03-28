@@ -2,9 +2,9 @@ package entity;
 
 import java.util.List;
 
-public class Chef {
-    private String name;
-    private List<Salad> salads;
+public abstract class Chef {
+    protected String name;
+    protected List<Salad> salads;
 
     public Chef(String name) {
         this.name = name;
