@@ -12,7 +12,7 @@ import java.util.List;
 public class InnaGrechana extends Chef {
 
     public InnaGrechana(String name, List<Salad> salads) {
-        super(name, salads);
+        super("Inna", salads);
         addSalad(new KingSalad());
         addSalad(new PekineseSalad());
         addSalad(new StudentSalad());
