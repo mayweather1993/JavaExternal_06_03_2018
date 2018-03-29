@@ -2,10 +2,10 @@ package service;
 
 import entity.Ingredient;
 
-public interface IngredientOptions {
-    void addIngredientToSalad(Ingredient ingredient);
+import java.util.List;
 
-    void lookRecipe() throws IngredientsException;
+public interface IngredientOptions {
+    void addIngredientsToSalad(List<Ingredient> ingredients);
 
     double countCalories();
 

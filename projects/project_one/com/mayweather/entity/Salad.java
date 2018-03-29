@@ -9,9 +9,9 @@ public abstract class Salad {
 
     @Override
     public String toString() {
-        return "Salad{" +
+        return "Salad{" + "\n" +
                 "name='" + name + '\'' +
-                ", salad=" + ingredients +
+                "\n" + ", salad=" + ingredients +
                 '}';
     }
 

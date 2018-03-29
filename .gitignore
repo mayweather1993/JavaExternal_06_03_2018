@@ -1,4 +1,5 @@
-**/out
-**/target
-**/myArtifact.iml
-**/.idea/**
+*.iml
+.idea/**
+*.txt
+*.DS_Store
+*.out

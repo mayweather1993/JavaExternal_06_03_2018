@@ -8,7 +8,7 @@ import java.util.List;
 
 public class PavelKozachek extends Chef {
 
-    public PavelKozachek(String name, List<Salad> salads) {
+    public PavelKozachek(List<Salad> salads) {
         super("Pasha", salads);
         addSalad(new StudentSalad());
     }

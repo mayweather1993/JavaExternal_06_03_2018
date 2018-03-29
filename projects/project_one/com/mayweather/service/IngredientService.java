@@ -12,19 +12,8 @@ public class IngredientService implements IngredientOptions {
 
 
     @Override
-    public void addIngredientToSalad(Ingredient ingredient) {
-        ingredients.add(ingredient);
-    }
-
-    @Override
-    public void lookRecipe() throws IngredientsException {
-        if (ingredients.isEmpty()) {
-            throw new IngredientsException("This is empty");
-        }
-        for (Ingredient ingredient :
-                ingredients) {
-            System.out.println(ingredient.toString());
-        }
+    public void addIngredientsToSalad(List<Ingredient> ingredients) {
+        this.ingredients = ingredients;
     }
 
     @Override
@@ -40,12 +29,12 @@ public class IngredientService implements IngredientOptions {
 
     @Override
     public void sortIngredientsByCalories() {
-        ingredients.sort((Comparator.comparingDouble(Ingredient::getTotalCalories)));
+        ingredients.sort((Comparator.comparingDouble(Ingredient::getCalories)));
     }
 
     @Override
     public void sortIngredientsByWeight() {
-        ingredients.sort((Comparator.comparingDouble(Ingredient::getTotalCalories)));
+        ingredients.sort((Comparator.comparingDouble(Ingredient::getWeight)));
     }
 
     @Override

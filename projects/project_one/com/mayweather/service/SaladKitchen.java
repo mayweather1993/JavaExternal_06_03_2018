@@ -12,5 +12,4 @@ public interface SaladKitchen {
 
     Salad createCustomSalad(String name, List<Ingredient> ingredients);
 
-    void addDefaultSaladsToChef();
 }
