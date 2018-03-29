@@ -115,8 +115,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -242,6 +242,32 @@
             <path>
               <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_one" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_one" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mayweather" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -403,15 +429,16 @@
       <workItem from="1522206545064" duration="25000" />
       <workItem from="1522239450269" duration="1553000" />
       <workItem from="1522242445126" duration="18381000" />
-      <workItem from="1522284126562" duration="865000" />
+      <workItem from="1522284126562" duration="1114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23888000" />
+    <option name="totallyTimeSpent" value="24137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -837,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="399">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
