@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8c61c20-6199-42ff-b7ee-8b72bd28c100" name="Default" comment="" />
+    <list default="true" id="b8c61c20-6199-42ff-b7ee-8b72bd28c100" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/projects/project_one/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Salad.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/project_one/com/mayweather/entity/Salad.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WeightException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/project_one/com/mayweather/entity/WeightException.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/projects/project_one/com/mayweather/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,7 +163,6 @@
         <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/CaloriesException.java" />
         <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/WeightException.java" />
         <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/service/ChefMenu.java" />
-        <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/Runner.java" />
         <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/service/IngredientService.java" />
         <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/controller/IngredintController.java" />
         <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/controller/IngredientController.java" />
@@ -192,6 +181,7 @@
         <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/controller/ChefController.java" />
         <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/service/ChefService.java" />
         <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/controller/ChefMenuController.java" />
+        <option value="$PROJECT_DIR$/projects/project_one/com/mayweather/Runner.java" />
       </list>
     </option>
   </component>
@@ -333,7 +323,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -478,12 +468,12 @@
       <workItem from="1522199255058" duration="158000" />
       <workItem from="1522206545064" duration="25000" />
       <workItem from="1522239450269" duration="1553000" />
-      <workItem from="1522242445126" duration="17818000" />
+      <workItem from="1522242445126" duration="18381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22460000" />
+    <option name="totallyTimeSpent" value="23023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -499,10 +489,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3296593" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32923076" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -526,13 +516,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson_02_plus_lesson_06/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_02_plus_lesson_06/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -966,10 +949,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/projects/project_one/com/mayweather/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
