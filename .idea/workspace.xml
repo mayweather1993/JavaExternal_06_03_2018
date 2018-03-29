@@ -1,98 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8c61c20-6199-42ff-b7ee-8b72bd28c100" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/paska.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_mockito_1_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_support_1_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_core_1_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_1_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_common_1_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_reflect_1_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-External_06_03_2018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/Vehicle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/controllers/MainСontroller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/controllers/MenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/controllers/VehicleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/dao/VehicleDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/entities/CCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/entities/CPlane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/entities/CShip.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/entities/CVehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/controllers/MainController2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/controllers/MenuController2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/controllers/VehicleController2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/dao/Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/dao/IFly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/dao/IMove.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/dao/ISwim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/dao/VehicleDAO2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/entities/Amphibian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/entities/Batmobile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/enums/AirDistance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/enums/Engine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/enums/Fuel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04-05/enums/TransmissionVariety.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-External_06_03_2018/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-External_06_03_2018/Vehicle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-External_06_03_2018/controllers/MainСontroller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-External_06_03_2018/task_01/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-External_06_03_2018/task_02/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-External_06_03_2018/task_03/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-External_06_03_2018/task_04/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/controller/ChefController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/controller/ChefMenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/controller/IngredientController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/controller/SaladController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/CaloriesException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/Chef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/Ingredient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/Salad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/WeightException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/chef/InnaGrechana.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/chef/PavelKozachek.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/custom_salads/KingSalad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/custom_salads/PekineseSalad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/custom_salads/StudentSalad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/custom_salads/Vinaigrette.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/ingredients/vegetables/Cabbage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/ingredients/vegetables/Carrot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/ingredients/vegetables/Cucumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/ingredients/vegetables/Dill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/ingredients/vegetables/Garlic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/ingredients/vegetables/Peas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/ingredients/vegetables/Potatoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/ingredients/vegetables/Tomato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/entity/ingredients/vegetables/VegetableCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/service/ChefInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/service/ChefService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/service/IngredientOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/service/IngredientService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/service/IngredientsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/service/SaladKitchen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/com/mayweather/service/SaladService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/project_one.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_one/target/maven-archiver/pom.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="b8c61c20-6199-42ff-b7ee-8b72bd28c100" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/projects/project_one/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -206,7 +115,9 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176" />
+            <state relative-caret-position="333">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -331,79 +242,6 @@
             <path>
               <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_one" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_one" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_one" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mayweather" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_one" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mayweather" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_one" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mayweather" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_one" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mayweather" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="chef" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_one" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mayweather" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="custom_salads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_one" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mayweather" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -565,12 +403,12 @@
       <workItem from="1522206545064" duration="25000" />
       <workItem from="1522239450269" duration="1553000" />
       <workItem from="1522242445126" duration="18381000" />
-      <workItem from="1522284126562" duration="308000" />
+      <workItem from="1522284126562" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23331000" />
+    <option name="totallyTimeSpent" value="23888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -999,7 +837,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176" />
+        <state relative-caret-position="333">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
       </provider>
     </entry>
   </component>
