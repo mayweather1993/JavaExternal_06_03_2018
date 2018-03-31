@@ -7,15 +7,11 @@ public class SerializableTaskRunner {
 
         Point p1 = new Point(9, 1);
         Point p2 = new Point(3, 19);
-
         Point pointA = new Point(2, 2);
         Point pointB = new Point(1, 7);
-
         Drawable line = new Line(pointA, pointB);
-
         Drawable triangle = new Triangle(p1, pointB, p2);
         Drawable rectangle = new Rectangle(p1, p2, pointA, pointB);
-
         Polygon polygon = new Polygon(new Point(10, 10), new Point(17, 2), new Point(14, 13), new Point(2, 0), new Point(4, -34));
 
         polygon.putFigure(p1);
