@@ -11,7 +11,7 @@ public abstract class Salad {
     public String toString() {
         return "Salad{" + "\n" +
                 "name='" + name + '\'' +
-                "\n" + ", salad=" + ingredients +
+                "\n" + "salad= \n" + ingredients +
                 '}';
     }
 

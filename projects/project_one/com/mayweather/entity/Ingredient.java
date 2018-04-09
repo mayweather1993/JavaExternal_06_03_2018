@@ -60,9 +60,9 @@ public abstract class Ingredient {
     public String toString() {
         return "Ingredient{" +
                 "name='" + name + '\'' +
-                ", calories=" + calories +
-                ", weight=" + weight +
-                '}';
+                "calories=" + calories +
+                "weight=" + weight +
+                '}' + "\n";
     }
 
     public double getTotalCalories() {

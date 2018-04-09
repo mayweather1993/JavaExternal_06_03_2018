@@ -167,7 +167,7 @@ public class ChefMenuController {
         while (decision != 4) {
             decision = Integer.parseInt(bufferedReader.readLine());
             if (decision > salads.size() || decision < 0) {
-                System.out.println("We dont have your salad");
+                System.out.println("We don't have your salad");
                 continue;
             }
             Salad salad = salads.get(decision);
@@ -177,6 +177,7 @@ public class ChefMenuController {
             System.out.println("Your salad : " + salad);
             System.out.println("4.Sort by weight");
             System.out.println("5.Sort by calories");
+            System.out.println("6.Find the vegetables in the salad, corresponding to a given range of calories");
             decision = Integer.parseInt(bufferedReader.readLine());
             if(decision == 4){
                 System.out.println("Before: " + ingredients);
@@ -188,9 +189,7 @@ public class ChefMenuController {
                 ingredientService.sortIngredientsByCalories();
                 System.out.println("After: " + ingredients);
             }
-            System.out.println("6.Find the vegetables in the salad, corresponding to a given range of calories");
-            decision = Integer.parseInt(bufferedReader.readLine());
-            if(decision == 6){
+            else if(decision == 6){
                 ingredientService.showIngredientsByCalories(20 , 40);
             }
         }
