@@ -18,5 +18,3 @@ Words starting with a new letter are printed from the red line.
 
 let's go boyz 
 
-:love:
-:love:

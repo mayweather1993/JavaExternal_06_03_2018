@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+group = 'com.homework'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+	compile group: 'org.slf4j', name: 'slf4j-jdk14', version: '1.7.25'
+	compileOnly('org.projectlombok:lombok:1.16.20')
+}
