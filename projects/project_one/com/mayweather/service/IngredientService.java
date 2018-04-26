@@ -1,6 +1,6 @@
-package service;
+package com.mayweather.service;
 
-import entity.Ingredient;
+import com.mayweather.entity.Ingredient;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -10,6 +10,9 @@ public class IngredientService implements IngredientOptions {
 
     private List<Ingredient> ingredients = new ArrayList<>();
 
+    public List<Ingredient> getIngredients() {
+        return ingredients;
+    }
 
     @Override
     public void addIngredientsToSalad(List<Ingredient> ingredients) {

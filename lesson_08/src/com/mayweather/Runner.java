@@ -16,8 +16,8 @@ public class Runner {
         String response = ParsController.read(path);
         List<String> pths = controller.getPath(path, response, 20);
         for (String p : pths) {
-            String pResponse = ParsController.read(p);
-            String[] words = controller.getWords(pResponse);
+            String resp = ParsController.read(p);
+            String[] words = controller.getWords(resp);
             int number = controller.count(words, "Шекспир");
             if (map.containsKey(number)) {
                 map.get(number).add(p);

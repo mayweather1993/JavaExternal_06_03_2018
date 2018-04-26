@@ -1,10 +1,10 @@
-package entity.chef;
+package com.mayweather.entity.chef;
 
-import entity.Chef;
-import entity.custom_salads.KingSalad;
-import entity.custom_salads.PekineseSalad;
-import entity.custom_salads.StudentSalad;
-import entity.custom_salads.Vinaigrette;
+import com.mayweather.entity.Chef;
+import com.mayweather.entity.custom_salads.KingSalad;
+import com.mayweather.entity.custom_salads.PekineseSalad;
+import com.mayweather.entity.custom_salads.StudentSalad;
+import com.mayweather.entity.custom_salads.Vinaigrette;
 
 import java.util.ArrayList;
 

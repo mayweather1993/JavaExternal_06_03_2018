@@ -58,14 +58,14 @@ public class ParsController {
     }
 
     public static String read(String path) throws IOException {
-        URL website = new URL(path);
-        URLConnection connection = website.openConnection();
-        BufferedReader bf = new BufferedReader(new InputStreamReader(connection.getInputStream(), "Cp1251"));
+        URL url = new URL(path);
+        URLConnection connection = url.openConnection();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream(), "Cp1251"));
         String str;
-        StringBuilder sb = new StringBuilder();
-        while ((str = bf.readLine()) != null)
-            sb.append(str);
-        return sb.toString();
+        StringBuilder builder = new StringBuilder();
+        while ((str = reader.readLine()) != null)
+            builder.append(str);
+        return builder.toString();
     }
 
     public String[] getWords(String htmlPage) {

@@ -1,7 +1,7 @@
-package entity.ingredients.vegetables;
+package com.mayweather.entity.ingredients.vegetables;
 
-import entity.Builder;
-import entity.Ingredient;
+import com.mayweather.entity.Builder;
+import com.mayweather.entity.Ingredient;
 
 public class Dill extends Ingredient {
 

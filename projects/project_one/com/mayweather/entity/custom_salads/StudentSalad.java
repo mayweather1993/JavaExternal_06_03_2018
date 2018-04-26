@@ -1,9 +1,9 @@
-package entity.custom_salads;
+package com.mayweather.entity.custom_salads;
 
-import entity.Salad;
-import entity.ingredients.vegetables.Cucumber;
-import entity.ingredients.vegetables.Garlic;
-import entity.ingredients.vegetables.Potatoes;
+import com.mayweather.entity.Salad;
+import com.mayweather.entity.ingredients.vegetables.Cucumber;
+import com.mayweather.entity.ingredients.vegetables.Garlic;
+import com.mayweather.entity.ingredients.vegetables.Potatoes;
 
 public class StudentSalad extends Salad {
     public StudentSalad() {

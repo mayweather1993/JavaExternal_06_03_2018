@@ -1,6 +1,6 @@
-package service;
+package com.mayweather.service;
 
-import entity.Ingredient;
+import com.mayweather.entity.Ingredient;
 
 import java.util.List;
 

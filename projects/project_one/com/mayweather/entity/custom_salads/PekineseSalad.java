@@ -1,9 +1,9 @@
-package entity.custom_salads;
+package com.mayweather.entity.custom_salads;
 
-import entity.Salad;
-import entity.ingredients.vegetables.Cabbage;
-import entity.ingredients.vegetables.Dill;
-import entity.ingredients.vegetables.Tomato;
+import com.mayweather.entity.Salad;
+import com.mayweather.entity.ingredients.vegetables.Cabbage;
+import com.mayweather.entity.ingredients.vegetables.Dill;
+import com.mayweather.entity.ingredients.vegetables.Tomato;
 
 public class PekineseSalad extends Salad {
     public PekineseSalad() {

@@ -1,8 +1,8 @@
-package entity.chef;
+package com.mayweather.entity.chef;
 
-import entity.Chef;
-import entity.Salad;
-import entity.custom_salads.StudentSalad;
+import com.mayweather.entity.Chef;
+import com.mayweather.entity.Salad;
+import com.mayweather.entity.custom_salads.StudentSalad;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package entity;
+package com.mayweather.entity;
 
-import entity.ingredients.vegetables.VegetableCategory;
+import com.mayweather.entity.ingredients.vegetables.VegetableCategory;
 
 public abstract class Ingredient {
     protected String name;

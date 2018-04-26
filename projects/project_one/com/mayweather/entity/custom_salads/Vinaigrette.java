@@ -1,7 +1,7 @@
-package entity.custom_salads;
+package com.mayweather.entity.custom_salads;
 
-import entity.Salad;
-import entity.ingredients.vegetables.*;
+import com.mayweather.entity.Salad;
+import com.mayweather.entity.ingredients.vegetables.*;
 
 public class Vinaigrette extends Salad {
 

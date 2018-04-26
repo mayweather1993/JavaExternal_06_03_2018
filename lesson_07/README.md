@@ -2,4 +2,8 @@
 
 #### Stack calculator
 
--
+- create a stack calculator with geometric operations
+
+P.S. 2easy
+
+:satisfied:

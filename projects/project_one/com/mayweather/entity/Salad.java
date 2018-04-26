@@ -1,4 +1,4 @@
-package entity;
+package com.mayweather.entity;
 
 import java.util.ArrayList;
 import java.util.List;
