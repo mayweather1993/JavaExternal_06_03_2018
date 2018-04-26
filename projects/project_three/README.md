@@ -26,4 +26,3 @@ The report should contain:
  
 
 :heart:
-:simple_smile:
